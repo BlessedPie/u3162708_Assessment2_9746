@@ -10,7 +10,7 @@ public class Unit : MonoBehaviour {
     private EnemyController enemyController;
     private PathRequester pathRequester;
     private float pursuitTime = 0.0f;
-    private float waitTime = 0.0f;
+    private float waitTime = 1.5f;
     private Vector3[] path;
     private int targetIndex;
     private int? oldTargetIndex = null; // Initalise fields 
